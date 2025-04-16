@@ -10,7 +10,7 @@ def test_sales_output_file():
     ]
 
     # 指定测试文件输出路径
-    test_output_path = "output/test_output.csv"
+    test_output_path = "output/test_task2_output.csv"
 
     # 调用函数生成文件
     calculate_sales(mock_data, output_path=test_output_path)
