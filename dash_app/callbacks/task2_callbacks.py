@@ -10,6 +10,6 @@ def run_task_2_sales_summary(n):
     file_paths = load_all_files('data')  # 只从 data/ 读
     filtered = filter_pink_morsel(file_paths)
     output_path = calculate_sales(filtered, output_path='output/pink_morsel_output.csv')
-    return f"✅ 任务二完成，销售汇总已生成：{output_path}"
+    return f"✅ Task completed, sales summary generated：{output_path}"
 def update_output(n):
     return f"Button clicked {n or 0} times"

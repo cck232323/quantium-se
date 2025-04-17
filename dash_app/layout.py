@@ -32,8 +32,8 @@ layout = dbc.Container([
 
     # ✅ 两个按钮横向对齐（整齐并有间距）
     dbc.Row([
-        dbc.Col(dbc.Button("任务二：生成文件", id="btn", color="primary", className="w-100"), width=3),
-        dbc.Col(dbc.Button("任务三：显示图表", id="run-btn", color="secondary", className="w-100"), width=3)
+        dbc.Col(dbc.Button("generate file", id="btn", color="primary", className="w-100"), width=3),
+        dbc.Col(dbc.Button("display chart", id="run-btn", color="secondary", className="w-100"), width=3)
     ], className="mb-3"),
 
     # ✅ 输出文字区域，加 margin-bottom

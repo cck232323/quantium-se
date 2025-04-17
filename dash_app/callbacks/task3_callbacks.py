@@ -9,5 +9,5 @@ import plotly.express as px
 )
 def render_sales_chart(n_clicks):
     df = load_grouped_sales_by_date()
-    fig = px.line(df, x="date", y="sales", markers=True, title="按日期聚合的销售额")
+    fig = px.line(df, x="date", y="sales", markers=True, title="sales group by date")
     return fig
